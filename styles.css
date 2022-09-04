@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.search {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.container {
+    position: absolute;
+    top: 20vh;
+    border: 1px black solid;
+    border-radius: 8px;
+}
+
+.container>ul {
+    margin: 20px;
+}
+
+.spacer {
+    height: 50px;
+    margin-bottom: 100px;
+}
